@@ -14,7 +14,7 @@ if (!inputFilePath || !outputFilePath) {
   process.exit(1);
 }
 
-console.log(`Reading NDJSON from ${inputFilePath}.`);
+console.log(`Reading PouchDB dump from ${inputFilePath}`);
 
 const writer = csvWriter({headers: [
   '_id',

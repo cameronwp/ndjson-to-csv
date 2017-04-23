@@ -9,6 +9,7 @@
   },
   "author": "Cameron Pittman",
   "keywords": [
+    "pouchdb",
     "njdson",
     "csv"
   ],
