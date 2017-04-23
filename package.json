@@ -1,0 +1,24 @@
+{
+  "name": "ndjson-to-csv",
+  "version": "1.0.0",
+  "description": "Convert NDJSON to CSV.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronwp/ndjson-to-csv.git"
+  },
+  "author": "Cameron Pittman",
+  "keywords": [
+    "njdson",
+    "csv"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronwp/ndjson-to-csv/issues"
+  },
+  "homepage": "https://github.com/cameronwp/ndjson-to-csv#readme",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "ndjson": "^1.5.0"
+  }
+}
